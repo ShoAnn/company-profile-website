@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import Navbar from './components/Navbar';
+import './index.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <p>hello world</p>
+    <div className="header">
+      <Navbar />
+      <p className="text-5xl text-green-700 uppercase  font-bold underline">hello world</p>
+    </div>
   )
 }
 
-export default App
+export default App;
