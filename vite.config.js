@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
-    base: '/company-profile-website/'
+    base: 'https://shoann.github.io//company-profile-website/'
   }
 })
