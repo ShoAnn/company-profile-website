@@ -17,6 +17,14 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
     },
+    {
+        path: "/company-profile-website/",
+        element: <Home />,
+    },
+    {
+        path: "https://shoann.github.io/company-profile-website/company-profile-website/",
+        element: <Home />,
+    },
     { path: "/profile", element: <Home /> },
     { path: "/visi", element: <Visi /> },
     { path: "/about", element: <AboutUs /> },
