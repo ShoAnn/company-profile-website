@@ -9,6 +9,17 @@ import image7 from "../assets/product (7).jpg";
 function ProductImages() {
     const images = [image1, image2, image3, image4, image5, image6, image7];
 
+    const getRandomPrice = () => {
+        const min = 100000;
+        const max = 1000000;
+        const difference = 1000;
+        const randomPrice =
+            Math.floor(Math.random() * ((max - min) / difference + 1)) *
+                difference +
+            min;
+        return randomPrice;
+    };
+
     return (
         <>
             <div className="container mx-auto px-5 py-2 lg:px-16 lg:pt-6">
@@ -24,6 +35,7 @@ function ProductImages() {
                                     className="block h-full w-full rounded-lg object-cover object-center"
                                     src={imageUrl}
                                 />
+                                <p>Rp. {getRandomPrice()}</p>
                             </div>
                         </div>
                     ))}
