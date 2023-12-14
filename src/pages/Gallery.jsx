@@ -1,6 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
-import ProductImages from "../components/ProductImages";
+import GalleryImages from "../components/GalleryImage";
 
 function Gallery() {
     return (
@@ -16,7 +16,7 @@ function Gallery() {
                     <p className="text-md pb-1">
                         Berikut adalah beberapa momen seru dari perjalanan kami.
                     </p>
-                    <ProductImages />
+                    <GalleryImages />
                 </div>
             </div>
         </>

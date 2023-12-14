@@ -35,10 +35,8 @@ function ProductImages() {
                                     className="block h-full w-full rounded-lg object-cover object-center"
                                     src={imageUrl}
                                 />
-                                <p className="pt-2 pb-4">
-                                    Rp. {getRandomPrice()}
-                                </p>
                             </div>
+                            <p className="pt-2 pb-4">Rp. {getRandomPrice()}</p>
                         </div>
                     ))}
                 </div>

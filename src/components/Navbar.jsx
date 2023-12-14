@@ -8,7 +8,7 @@ function Navbar() {
                 <ul className="col-span-4 flex items-center justify-end gap-10">
                     <li>
                         <Link
-                            to={"/"}
+                            to={"/company-profile-website/"}
                             className="hover:underline active:underline"
                         >
                             Home
@@ -16,7 +16,7 @@ function Navbar() {
                     </li>
                     <li>
                         <Link
-                            to={"/profile"}
+                            to={"/company-profile-website/profile"}
                             className="hover:underline active:underline"
                         >
                             Profile
@@ -24,7 +24,7 @@ function Navbar() {
                     </li>
                     <li>
                         <Link
-                            to={"/visi"}
+                            to={"/company-profile-website/visi"}
                             className="hover:underline active:underline"
                         >
                             Visi Misi
@@ -32,7 +32,7 @@ function Navbar() {
                     </li>
                 </ul>
                 <div className="flex justify-center">
-                    <Link to={"/"}>
+                    <Link to={"/company-profile-website/"}>
                         <img
                             src={logo}
                             alt="logo"
@@ -43,7 +43,7 @@ function Navbar() {
                 <ul className="col-span-4 flex items-center justify-start gap-10">
                     <li>
                         <Link
-                            to={"/products"}
+                            to={"/company-profile-website/products"}
                             className="hover:underline active:underline"
                         >
                             Produk Kami
@@ -51,7 +51,7 @@ function Navbar() {
                     </li>
                     <li>
                         <Link
-                            to={"/about"}
+                            to={"/company-profile-website/about"}
                             className="hover:underline active:underline"
                         >
                             About us
@@ -59,7 +59,7 @@ function Navbar() {
                     </li>
                     <li>
                         <Link
-                            to={"/contact"}
+                            to={"/company-profile-website/contact"}
                             className="hover:underline active:underline"
                         >
                             Kontak kami

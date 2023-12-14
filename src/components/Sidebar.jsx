@@ -8,7 +8,7 @@ function Sidebar() {
                     <ul className="flex flex-col py-4 space-y-1">
                         <li>
                             <Link
-                                to={"/"}
+                                to={"/company-profile-website/"}
                                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-slate-900 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6 "
                             >
                                 <span className="inline-flex justify-center items-center ml-4">
@@ -34,7 +34,7 @@ function Sidebar() {
                         </li>
                         <li>
                             <Link
-                                to={"/profile"}
+                                to={"/company-profile-website/profile"}
                                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-slate-900 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
                             >
                                 <span className="inline-flex justify-center items-center ml-4">
@@ -60,7 +60,7 @@ function Sidebar() {
                         </li>
                         <li>
                             <Link
-                                to={"/articles"}
+                                to={"/company-profile-website/articles"}
                                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-slate-900 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
                             >
                                 <span className="inline-flex justify-center items-center ml-4">
@@ -86,7 +86,7 @@ function Sidebar() {
                         </li>
                         <li>
                             <Link
-                                to={"/events"}
+                                to={"/company-profile-website/events"}
                                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-slate-900 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
                             >
                                 <span className="inline-flex justify-center items-center ml-4">
@@ -112,7 +112,7 @@ function Sidebar() {
                         </li>
                         <li>
                             <Link
-                                to={"/gallery"}
+                                to={"/company-profile-website/gallery"}
                                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-slate-900 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
                             >
                                 <span className="inline-flex justify-center items-center ml-4">
@@ -138,7 +138,7 @@ function Sidebar() {
                         </li>
                         <li>
                             <Link
-                                to={"/clients"}
+                                to={"/company-profile-website/clients"}
                                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-slate-900 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
                             >
                                 <span className="inline-flex justify-center items-center ml-4">
@@ -171,7 +171,7 @@ function Sidebar() {
                         </li>
                         <li>
                             <Link
-                                to={"/login"}
+                                to={"/company-profile-website/login"}
                                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-slate-900 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
                             >
                                 <span className="inline-flex justify-center items-center ml-4">
@@ -197,7 +197,7 @@ function Sidebar() {
                         </li>
                         <li>
                             <Link
-                                to={"/signup"}
+                                to={"/company-profile-website/signup"}
                                 className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-slate-900 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
                             >
                                 <span className="inline-flex justify-center items-center ml-4">
